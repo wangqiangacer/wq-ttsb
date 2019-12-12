@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 49.232.173.109:32788
+  application:
+    name: ttsb-service-schedule
+server:
+  port: 18765
