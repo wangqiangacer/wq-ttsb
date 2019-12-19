@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jacken.ttsbcodegenerator.dao.JdGoodsPackageMapper">
+  <resultMap id="BaseResultMap" type="com.jacken.ttsbcodegenerator.entity.JdGoodsPackage">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="skuNum" jdbcType="INTEGER" property="skunum" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="desc" jdbcType="VARCHAR" property="desc" />
+  </resultMap>
+  <insert id="insert" parameterType="com.jacken.ttsbcodegenerator.entity.JdGoodsPackage">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into jd_goods_package (`name`, skuNum, create_time, 
+      update_time, `desc`)
+    values (#{name,jdbcType=VARCHAR}, #{skunum,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{updateTime,jdbcType=TIMESTAMP}, #{desc,jdbcType=VARCHAR})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, `name`, skuNum, create_time, update_time, `desc`
+    from jd_goods_package
+  </select>
+</mapper>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jacken.ttsbcodegenerator.dao.JdGoodsMapper">
+  <resultMap id="BaseResultMap" type="com.jacken.ttsbcodegenerator.entity.JdGoods">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="skuId" jdbcType="VARCHAR" property="skuid" />
+    <result column="cid" jdbcType="INTEGER" property="cid" />
+    <result column="cid2" jdbcType="INTEGER" property="cid2" />
+    <result column="cid3" jdbcType="INTEGER" property="cid3" />
+    <result column="goods_name" jdbcType="VARCHAR" property="goodsName" />
+    <result column="cid_name" jdbcType="VARCHAR" property="cidName" />
+    <result column="cid2_name" jdbcType="VARCHAR" property="cid2Name" />
+    <result column="cid3_name" jdbcType="VARCHAR" property="cid3Name" />
+    <result column="img_url" jdbcType="VARCHAR" property="imgUrl" />
+    <result column="short_url" jdbcType="VARCHAR" property="shortUrl" />
+    <result column="material_url" jdbcType="VARCHAR" property="materialUrl" />
+    <result column="commision_ratio_pc" jdbcType="TINYINT" property="commisionRatioPc" />
+    <result column="commision_ratio_wl" jdbcType="TINYINT" property="commisionRatioWl" />
+    <result column="wl_unit_price" jdbcType="DECIMAL" property="wlUnitPrice" />
+    <result column="unit_price" jdbcType="DECIMAL" property="unitPrice" />
+    <result column="goods_package_id" jdbcType="INTEGER" property="goodsPackageId" />
+    <result column="goods_package_name" jdbcType="VARCHAR" property="goodsPackageName" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="source" jdbcType="VARCHAR" property="source" />
+    <result column="commission" jdbcType="DECIMAL" property="commission" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+  </resultMap>
+  <insert id="insert" parameterType="com.jacken.ttsbcodegenerator.entity.JdGoods">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into jd_goods (skuId, cid, cid2, 
+      cid3, goods_name, cid_name, 
+      cid2_name, cid3_name, img_url, 
+      short_url, material_url, commision_ratio_pc, 
+      commision_ratio_wl, wl_unit_price, unit_price, 
+      goods_package_id, goods_package_name, create_time, 
+      update_time, `source`, commission, 
+      `status`)
+    values (#{skuid,jdbcType=VARCHAR}, #{cid,jdbcType=INTEGER}, #{cid2,jdbcType=INTEGER}, 
+      #{cid3,jdbcType=INTEGER}, #{goodsName,jdbcType=VARCHAR}, #{cidName,jdbcType=VARCHAR}, 
+      #{cid2Name,jdbcType=VARCHAR}, #{cid3Name,jdbcType=VARCHAR}, #{imgUrl,jdbcType=VARCHAR}, 
+      #{shortUrl,jdbcType=VARCHAR}, #{materialUrl,jdbcType=VARCHAR}, #{commisionRatioPc,jdbcType=TINYINT}, 
+      #{commisionRatioWl,jdbcType=TINYINT}, #{wlUnitPrice,jdbcType=DECIMAL}, #{unitPrice,jdbcType=DECIMAL}, 
+      #{goodsPackageId,jdbcType=INTEGER}, #{goodsPackageName,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{updateTime,jdbcType=TIMESTAMP}, #{source,jdbcType=VARCHAR}, #{commission,jdbcType=DECIMAL}, 
+      #{status,jdbcType=INTEGER})
+  </insert>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, skuId, cid, cid2, cid3, goods_name, cid_name, cid2_name, cid3_name, img_url, 
+    short_url, material_url, commision_ratio_pc, commision_ratio_wl, wl_unit_price, unit_price, 
+    goods_package_id, goods_package_name, create_time, update_time, `source`, commission, 
+    `status`
+    from jd_goods
+  </select>
+</mapper>

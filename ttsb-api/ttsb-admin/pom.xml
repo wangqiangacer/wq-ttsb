@@ -8,13 +8,12 @@
         <version>2.0.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
     <groupId>com.jacken</groupId>
     <artifactId>ttsb-admin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ttsb-admin</name>
-    <description>Demo project for Spring Boot</description>
-    <packaging>jar</packaging>
+    <description>后台系统</description>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -54,15 +53,23 @@
 
 
         <!--        分布式配置中心-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>-->
-<!--            <version>0.2.1.RELEASE</version>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.cloud</groupId>-->
+        <!--            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>-->
+        <!--            <version>0.2.1.RELEASE</version>-->
+        <!--        </dependency>-->
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

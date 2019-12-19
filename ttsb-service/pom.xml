@@ -22,7 +22,6 @@
         <module>ttsb-service-core</module>
         <module>ttsb-service-message</module>
         <module>ttsb-service-schedule</module>
-        <module>ttsb-service-threeparty</module>
     </modules>
 
     <dependencies>

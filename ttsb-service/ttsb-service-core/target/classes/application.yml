@@ -1,6 +1,12 @@
 spring:
   profiles:
     active: dev
+  datasource:
+    url: jdbc:mysql://49.232.173.109:3306/ttshb?useSSL=false&useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
   cloud:
     nacos:
       discovery:
@@ -9,3 +15,22 @@ spring:
     name: ttsb-service-core
 server:
   port: 18763
+
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.jacken.wqttsbmodel.entity
+  configuration:
+    map-underscore-to-camel-case: true
+    use-actual-param-name: true
+
+#  打印sql执行语句
+logging:
+  level:
+    com:
+      jacken:
+        ttsbservicecore:
+              mapper : debug

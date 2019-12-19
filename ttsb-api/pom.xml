@@ -18,9 +18,9 @@
         <java.version>1.8</java.version>
     </properties>
     <modules>
-        <module>ttsb-admin</module>
-        <module>ttsb-app</module>
+        <module>ttsb-web</module>
         <module>ttsb-h5</module>
+        <module>ttsb-admin</module>
     </modules>
 
     <dependencies>
