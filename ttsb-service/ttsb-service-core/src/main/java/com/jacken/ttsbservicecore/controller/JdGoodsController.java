@@ -27,4 +27,9 @@ public class JdGoodsController {
     public  Result selectJdGoodsPage(@RequestBody JdGoodsRequest request){
         return jdGoodsService.selectJdGoodsPage(request);
     }
+
+    @PostMapping("/getJdGoodsItem")
+    public  Result getJdGoodsItem(){
+        return jdGoodsService.getJdGoodsItem();
+    }
 }

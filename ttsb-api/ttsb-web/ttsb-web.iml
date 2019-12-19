@@ -88,7 +88,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.0.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus:3.3.0" level="project" />
     <orderEntry type="library" name="Maven: com.jd:open-api-sdk:2.0" level="project" />
-    <orderEntry type="library" name="Maven: com.taobao:taobao-sdk:1575942036244-20191210" level="project" />
+    <orderEntry type="library" name="Maven: com.taobao:taobao-sdk:1571824324541-20191118" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.10" level="project" />

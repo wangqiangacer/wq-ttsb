@@ -65,6 +65,7 @@ public class JdGoodsServiceImpl extends ServiceImpl<JdGoodsMapper, JdGoods> impl
         //同步商品包信息
         getJdPkgList();
         jdGoodsMapper.deleteAllJdGoods();
+        //jdGoodsMapper.delete(null);
         log.info("同步京东商品开始,清空所有商品信息");
         long begin = System.currentTimeMillis();
         JdClient client=new DefaultJdClient(config.getServerUrl(),config.getToken(),config.getApiKey(),config.getApiSecret());
@@ -135,7 +136,7 @@ public class JdGoodsServiceImpl extends ServiceImpl<JdGoodsMapper, JdGoods> impl
                 //商品包名称
                 jdGoodsPackage.setName(list[i].getName());
                 //skuNum  每一个商品包下的所有商品总数
-                jdGoodsPackage.setSkunum(Integer.parseInt(String.valueOf(list[i].getSkuNum())));
+                jdGoodsPackage.setSkuNum(Integer.parseInt(String.valueOf(list[i].getSkuNum())));
                 jdGoodsPackage.setUpdateTime(new Date());
                 jdGoodsPackage.setCreateTime(new Date());
                 jdGoodsMapper.save(jdGoodsPackage);
@@ -226,7 +227,7 @@ public class JdGoodsServiceImpl extends ServiceImpl<JdGoodsMapper, JdGoods> impl
                 //设置商品包名称
                 jdGoods.setGoodsPackageName(packageName);
                 //设置skuid
-                jdGoods.setSkuid(jsonObject1.getString("skuId"));
+                jdGoods.setSkuId(jsonObject1.getString("skuId"));
                 //一级分类id
                 jdGoods.setCid(jsonObject1.getInteger("cid"));
                 //二级分类id
@@ -262,9 +263,9 @@ public class JdGoodsServiceImpl extends ServiceImpl<JdGoodsMapper, JdGoods> impl
                     //再执行保存操作
                     jdGoods.setCreateTime(new Date());
                     jdGoods.setUpdateTime(new Date());
-                    jdGoodsMapper.saveJdGoods(jdGoods);
-
-                    log.info("京东商品信息入库成功--->"+JSONObject.toJSONString(jdGoods.getSkuid()));
+                    //jdGoodsMapper.saveJdGoods(jdGoods);
+                    jdGoodsMapper.insert(jdGoods);
+                    log.info("京东商品信息入库成功--->"+JSONObject.toJSONString(jdGoods.getSkuId()));
                 } catch (NumberFormatException e) {
                     log.error("京东商品信息入库失败"+e.getMessage()+"--skuId--"+result.getJSONObject(i).getString("skuId")
                             +"--skuId--"+result.getJSONObject(i).getString("skuId")

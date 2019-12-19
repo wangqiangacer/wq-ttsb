@@ -18,4 +18,9 @@ public class JdGoodsServiceHystrix implements JdGoodsService {
     public Result selectJdGoodsPage(JdGoodsRequest request) {
         return Result.error(ExceptionEnum.SYS_EXCEPTION);
     }
+
+    @Override
+    public Result getJdGoodsItem() {
+        return Result.error(ExceptionEnum.SYS_EXCEPTION);
+    }
 }

@@ -16,4 +16,7 @@ public interface JdGoodsService {
 
     @PostMapping("/jdGoods/selectJdGoodsPage")
     Result selectJdGoodsPage(JdGoodsRequest request);
+
+    @PostMapping("/jdGoods/getJdGoodsItem")
+    Result getJdGoodsItem();
 }

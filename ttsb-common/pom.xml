@@ -86,7 +86,7 @@
         <dependency>
             <groupId>com.taobao</groupId>
             <artifactId>taobao-sdk</artifactId>
-            <version>1575942036244-20191210</version>
+            <version>1571824324541-20191118</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->

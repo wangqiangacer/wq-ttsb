@@ -8,14 +8,10 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
-@AllArgsConstructor
-@NoArgsConstructor
-@Accessors(chain = true)
 @Data
 public class JdGoods implements Serializable {
-    private Integer id;
 
-    private String skuid;
+    private String skuId;
 
     private Integer cid;
 
