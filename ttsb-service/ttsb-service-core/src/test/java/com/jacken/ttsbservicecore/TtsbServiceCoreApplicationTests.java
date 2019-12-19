@@ -2,12 +2,13 @@ package com.jacken.ttsbservicecore;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.jacken.ttsbservicecore.mapper.JdGoodsMapper;
 import com.jacken.ttsbservicecore.mapper.UserMapper;
-import com.jacken.ttsbservicecore.result.Result;
 import com.jacken.ttsbservicecore.service.impl.JdGoodsServiceImpl;
 import com.jacken.wqttsbmodel.entity.User;
 import com.jacken.wqttsbmodel.request.JdGoodsRequest;
+import com.jacken.wqttsbmodel.result.Result;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,5 +47,15 @@ public  class TtsbServiceCoreApplicationTests {
         request.setGoodsName("美的");
         Result result = jdGoodsService.selectJdGoodsPage(request);
         System.out.println(JSONObject.toJSONString(result));
+    }
+
+    @Test
+    public  void selectUserList(){
+        IPage<User> userPage = new Page<>(2, 2);
+        userPage = userMapper.selectPage(userPage, null);
+        List<User> list = userPage.getRecords();
+        for (User user : list) {
+            System.out.println(user);
+        }
     }
 }

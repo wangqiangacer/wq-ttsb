@@ -1,8 +1,9 @@
 package com.jacken.ttsbservicecore.service;
 
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.jacken.wqttsbmodel.entity.User;
+import com.jacken.wqttsbmodel.result.Result;
 
-import com.jacken.ttsbservicecore.result.Result;
-
-public interface UserService {
+public interface UserService  extends IService<User> {
      Result selectUser();
 }

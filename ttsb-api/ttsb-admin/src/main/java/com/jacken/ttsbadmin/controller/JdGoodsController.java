@@ -1,8 +1,8 @@
 package com.jacken.ttsbadmin.controller;
 
 import com.jacken.ttsbadmin.feign.JdGoodsService;
-import com.jacken.ttsbadmin.result.Result;
 import com.jacken.wqttsbmodel.request.JdGoodsRequest;
+import com.jacken.wqttsbmodel.result.Result;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

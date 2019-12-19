@@ -1,7 +1,8 @@
 package com.jacken.ttsbadmin.fallback;
 import com.jacken.ttsbadmin.feign.UserService;
-import com.jacken.ttsbadmin.result.Result;
-import com.jacken.ttsbadmin.result.exception.ExceptionEnum;
+
+import com.jacken.wqttsbmodel.enums.ExceptionEnum;
+import com.jacken.wqttsbmodel.result.Result;
 import org.springframework.stereotype.Component;
 
 @Component

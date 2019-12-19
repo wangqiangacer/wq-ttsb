@@ -1,7 +1,8 @@
 package com.jacken.ttsbservicecore.controller;
 
-import com.jacken.ttsbservicecore.result.Result;
+
 import com.jacken.ttsbservicecore.service.UserService;
+import com.jacken.wqttsbmodel.result.Result;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

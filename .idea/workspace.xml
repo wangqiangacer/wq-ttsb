@@ -2,403 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea0de45-5420-43a6-a9d7-98c9f0928642" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_0_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_0_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_0_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_34.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_lgpl_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_lgpl_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_alibaba_nacos_discovery_0_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_alibaba_nacos_discovery_0_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/JdGoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/JdGoodsServiceHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/UserServiceHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/JdGoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/result/exception/ExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-api/ttsb-web/src/main/java/com/jacken/ttsbweb/fallback/UserFignHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/TtsbCodeGeneratorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/dao/JdGoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/dao/JdGoodsPackageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/dao/TbkFavoritesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/dao/TbkItemGoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/entity/JdGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/entity/JdGoodsPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/entity/TbkFavorites.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/entity/TbkItemGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/resources/mapper/JdGoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/resources/mapper/JdGoodsPackageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/resources/mapper/TbkFavoritesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/resources/mapper/TbkItemGoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/resources/mybatis-generator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/baseentity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/baseentity/BasePageRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/baseentity/PageModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoodsPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/TbkFavorites.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/TbkItemGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/request/JdGoodsRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/WqTtsbModelApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/baseentity/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/baseentity/BasePageRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/baseentity/PageModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/entity/JdGoods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/entity/JdGoodsPackage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/entity/TbkFavorites.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/entity/TbkItemGoods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/request/JdGoodsRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/JdGoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/JdGoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/JdGoodsPackageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/TbkFavoritesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/TbkItemGoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/result/exception/ExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/JdGoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/UserviceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/mapper/JdGoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/controller/JdGoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/mapper/JdGoodsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/mapper/JdGoodsPackageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/mapper/TbkFavoritesMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/mapper/TbkItemGoodsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/result/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/result/exception/ExceptionEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/JdGoodsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/impl/UserviceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/mapper/JdGoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jd_open_api_sdk_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_taobao_taobao_sdk_1575942036244_20191210.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/config/JdGoodsApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/utils/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-common/target/classes/META-INF/ttsb-common.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-common/target/classes/com/jacken/wqttsbcommon/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-common/target/classes/com/jacken/wqttsbcommon/utils/ExceptionEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-common/target/test-classes/META-INF/ttsb-common.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-common/target/test-classes/com/jacken/wqttsbcommon/WqTtsbCommonApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/enums/ExceptionEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/result/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/META-INF/ttsb-service-core.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/TtsbAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/TtsbAdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/UserFignHystrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/UserFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-web/src/main/java/com/jacken/ttsbweb/feign/UserFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/resources/bootstrap-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-web/src/main/resources/bootstrap-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/test/java/com/jacken/ttsbadmin/TtsbAdminApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/test/java/com/jacken/ttsbadmin/TtsbAdminApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/target/classes/bootstrap-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/target/classes/com/jacken/ttsbadmin/TtsbAdminApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/target/test-classes/com/jacken/ttsbadmin/TtsbAdminApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/ttsb-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-web/ttsb-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-app/src/main/java/com/jacken/ttsbapp/TtsbAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-web/src/main/java/com/jacken/ttsbweb/TtsbWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-app/src/test/java/com/jacken/ttsbapp/TtsbAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-web/src/test/java/com/jacken/ttsbweb/TtsbAdminApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-app/ttsb-app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-h5/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-h5/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-h5/target/classes/com/jacken/ttsbh5/TtsbH5Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-h5/target/test-classes/com/jacken/ttsbh5/TtsbH5ApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/JdGoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/JdGoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/JdGoodsServiceHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/JdGoodsServiceHystrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/UserServiceHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/UserServiceHystrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/JdGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/JdGoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/result/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/result/exception/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/enums/ExceptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-h5/ttsb-h5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-h5/ttsb-h5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-api/ttsb-web/ttsb-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-api/ttsb-web/ttsb-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-common/src/main/java/com/jakcen/wqttsbcommon/WqTtsbCommonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-common/src/main/java/com/jakcen/wqttsbcommon/support/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-common/src/main/java/com/jakcen/wqttsbcommon/utils/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/utils/ExceptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-common/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-common/src/test/java/com/jakcen/wqttsbcommon/WqTtsbCommonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-common/src/test/java/com/jacken/wqttsbcommon/WqTtsbCommonApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-common/ttsb-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-common/ttsb-common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/WqTtsbModelApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-model/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-model/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/WqTtsbModelApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/entity/JdGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-model/target/classes/com/jacken/wqttsbmodel/entity/JdGoods.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-model/ttsb-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-model/ttsb-model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/JdGoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/JdGoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/JdGoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/JdGoodsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/result/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/result/exception/ExceptionEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/JdGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/JdGoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/UserviceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/UserviceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/test/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/test/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/TtsbServiceCoreApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/TtsbServiceCoreApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/controller/JdGoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/controller/JdGoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/mapper/JdGoodsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/mapper/JdGoodsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/result/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/result/exception/ExceptionEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/JdGoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/JdGoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/impl/UserviceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/classes/com/jacken/ttsbservicecore/service/impl/UserviceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/test-classes/com/jacken/ttsbservicecore/TtsbServiceCoreApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/target/test-classes/com/jacken/ttsbservicecore/TtsbServiceCoreApplicationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/ttsb-service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-core/ttsb-service-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-message/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-code-generator/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-message/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-message/target/classes/com/jacken/ttsbservicemessage/TtsbServiceMessageApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-message/target/test-classes/com/jacken/ttsbservicemessage/TtsbServiceMessageApplicationTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-message/ttsb-service-message.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-message/ttsb-service-message.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-threeparty/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-threeparty/src/main/java/com/jacken/ttsbservicethreeparty/TtsbServiceThreepartyApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-threeparty/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-model/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-threeparty/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-threeparty/src/test/java/com/jacken/ttsbservicethreeparty/TtsbServiceThreepartyApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-code-generator/src/test/java/com/jacken/ttsbcodegenerator/TtsbCodeGeneratorApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-threeparty/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-threeparty/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-threeparty/target/classes/com/jacken/ttsbservicethreeparty/TtsbServiceThreepartyApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-threeparty/target/test-classes/com/jacken/ttsbservicethreeparty/TtsbServiceThreepartyApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-threeparty/ttsb-service-threeparty.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttsb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttsb-service/ttsb-service-schedule/ttsb-service-schedule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ttsb-service/ttsb-service-schedule/ttsb-service-schedule.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -427,36 +109,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/JdGoodsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-              <folding>
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/JdGoodsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+            <state relative-caret-position="564">
+              <caret line="105" column="54" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -465,19 +122,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/test/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state relative-caret-position="572">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/utils/HttpClientUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-900">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="e#7552#7567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/config/JdGoodsApiConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ttsb-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/JdGoodsMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="733">
+              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -486,60 +182,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/mapper/JdGoodsMapper.xml">
+        <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/JdGoodsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="300">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/JdGoodsServiceHystrix.java">
+        <entry file="file://$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/utils/ExceptionEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/JdGoodsController.java">
+        <entry file="file://$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/utils/DateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="-2100">
+              <caret line="249" column="28" selection-start-line="249" selection-start-column="28" selection-end-line="249" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -563,57 +231,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ttsb-api/ttsb-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ttsb-api/pom.xml" />
-        <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/BaseEntity/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/TbkItemGoods.java" />
-        <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/Favorites.java" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplication.java" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/TbkItemGoodsRespository.java" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/UserRepository.java" />
-        <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoodsPackage.java" />
-        <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoodsItem.java" />
         <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/JdGoodsRepository.java" />
         <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/FavoritesRespository.java" />
         <option value="$PROJECT_DIR$/ttsb-code-generator/pom.xml" />
         <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/pom.xml" />
-        <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/enums/ExceptionEnum.java" />
-        <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/result/Result.java" />
         <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/User.java" />
         <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/pom.xml" />
         <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/test/java/com/jacken/ttsbadmin/TtsbAdminApplicationTests.java" />
-        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/TtsbAdminApplication.java" />
         <option value="$PROJECT_DIR$/ttsb-code-generator/src/main/resources/mybatis-generator.xml" />
-        <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoods.java" />
         <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/JdGoodsPackageMapper.java" />
         <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/TbkFavoritesMapper.java" />
         <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/TbkItemGoodsMapper.java" />
         <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/result/exception/ExceptionEnum.java" />
         <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/result/exception/Result.java" />
         <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/result/Result.java" />
-        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/UserService.java" />
         <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/result/Result.java" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/UserService.java" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/UserviceImpl.java" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/UserServiceHystrix.java" />
         <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/baseentity/BasePageRequest.java" />
         <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/request/JdGoodsRequest.java" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/JdGoodsService.java" />
-        <option value="$PROJECT_DIR$/ttsb-model/pom.xml" />
         <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/baseentity/PageModel.java" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/test/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplicationTests.java" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/mapper/JdGoodsMapper.xml" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/JdGoodsController.java" />
         <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/JdGoodsService.java" />
-        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/JdGoodsServiceHystrix.java" />
+        <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/enums/ExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/result/Result.java" />
         <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/JdGoodsController.java" />
-        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/JdGoodsServiceHystrix.java" />
+        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/UserServiceHystrix.java" />
+        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/JdGoodsService.java" />
+        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/UserService.java" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/JdGoodsController.java" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ttsb-model/pom.xml" />
+        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/mapper/JdGoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/ttsb-common/src/test/java/com/jakcen/wqttsbcommon/WqTtsbCommonApplicationTests.java" />
+        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/TtsbAdminApplication.java" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/UserviceImpl.java" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/test/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplicationTests.java" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/ttsb-common/src/main/java/com/jakcen/wqttsbcommon/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplication.java" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/JdGoodsService.java" />
+        <option value="$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/config/JdGoodsApiConfig.java" />
+        <option value="$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/utils/DateUtils.java" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ttsb-common/pom.xml" />
+        <option value="$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/utils/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoods.java" />
         <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/JdGoodsMapper.java" />
+        <option value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -626,23 +294,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ttsb-code-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ttsb-code-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ttsb-code-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -655,7 +307,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -711,29 +363,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
-              <item name="ttsb-api" type="462c0819:PsiDirectoryNode" />
-              <item name="ttsb-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jacken" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
-              <item name="ttsb-api" type="462c0819:PsiDirectoryNode" />
-              <item name="ttsb-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jacken" type="462c0819:PsiDirectoryNode" />
               <item name="ttsbadmin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -743,11 +372,247 @@
               <item name="ttsb-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jacken" type="462c0819:PsiDirectoryNode" />
-              <item name="ttsbadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wqttsbcommon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wqttsbcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wqttsbcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wqttsbmodel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wqttsbmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsbservicecore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsbservicecore" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsbservicecore" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsbservicecore" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ttsb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wq-ttsb" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsb-service-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ttsbservicecore" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -764,24 +629,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jacken.wqttsbmodel.baseentity" />
-      <recent name="com.jacken.ttsbadmin.controller" />
-      <recent name="com.jacken.ttsbservicecore.controller" />
-      <recent name="com.jacken.ttsbadmin.result" />
-      <recent name="com.jacken.ttsbadmin.result.exception" />
+      <recent name="com.jacken.wqttsbcommon.utils" />
+      <recent name="com.jacken.wqttsbcommon.config" />
+      <recent name="com.jacken.ttsbservicecore.config" />
+      <recent name="com.jakcen.wqttsbcommon.config" />
+      <recent name="com.jacken.wqttsbmodel.enums" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\code\wq-ttsb\ttsb-api\ttsb-admin\src\main" />
       <recent name="C:\Users\Administrator\Desktop\code\wq-ttsb\ttsb-service\ttsb-service-core\src\main\resources\mapper" />
       <recent name="C:\Users\Administrator\Desktop\code\wq-ttsb\ttsb-service\ttsb-service-core\src\main\java\com\jacken\ttsbservicecore" />
       <recent name="C:\Users\Administrator\Desktop\code\wq-ttsb\ttsb-service\ttsb-service-core\src\main\java\com\jacken\ttsbservicecore\mapper" />
       <recent name="C:\Users\Administrator\Desktop\code\wq-ttsb\ttsb-model\src\main\java\com\jacken\wqttsbmodel\entity" />
-      <recent name="C:\Users\Administrator\Desktop\code\wq-ttsb\ttsb-api\ttsb-admin\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -796,7 +661,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TtsbServiceCoreApplication">
+  <component name="RunManager" selected="Spring Boot.TtsbAdminApplication (1)">
     <configuration name="TtsbServiceCoreApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ttsb-service-core" />
       <extension name="coverage">
@@ -855,6 +720,22 @@
       <option name="PACKAGE_NAME" value="com.jacken.ttsbservicecore" />
       <option name="MAIN_CLASS_NAME" value="com.jacken.ttsbservicecore.TtsbServiceCoreApplicationTests" />
       <option name="METHOD_NAME" value="selectUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtsbServiceCoreApplicationTests.selectUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ttsb-service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jacken.ttsbservicecore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jacken.ttsbservicecore" />
+      <option name="MAIN_CLASS_NAME" value="com.jacken.ttsbservicecore.TtsbServiceCoreApplicationTests" />
+      <option name="METHOD_NAME" value="selectUserList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -939,6 +820,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TtsbServiceCoreApplicationTests.selectUserList" />
         <item itemvalue="JUnit.TtsbServiceCoreApplicationTests.selectByCondition" />
         <item itemvalue="JUnit.TtsbServiceCoreApplicationTests.selectJdGoods" />
         <item itemvalue="JUnit.TtsbServiceCoreApplicationTests.selectUser" />
@@ -957,26 +839,19 @@
       <option name="presentableId" value="Default" />
       <updated>1576198901726</updated>
       <workItem from="1576198904101" duration="1209000" />
-      <workItem from="1576735656482" duration="13328000" />
+      <workItem from="1576735656482" duration="23411000" />
     </task>
+    <task id="LOCAL-00001" summary="增加京东淘宝商品信息">
+      <created>1576749537953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576749537953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TtsbServiceCoreApplicationTests_selectUser - 2019.12.19 at 15h 26m 55s.xml">
-      <configuration name="TtsbServiceCoreApplicationTests.selectUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TtsbServiceCoreApplicationTests_selectUser - 2019.12.19 at 15h 29m 07s.xml">
-      <configuration name="TtsbServiceCoreApplicationTests.selectUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TtsbServiceCoreApplicationTests_selectUser - 2019.12.19 at 15h 30m 37s.xml">
-      <configuration name="TtsbServiceCoreApplicationTests.selectUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TtsbServiceCoreApplicationTests_selectUser - 2019.12.19 at 15h 31m 14s.xml">
-      <configuration name="TtsbServiceCoreApplicationTests.selectUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TtsbServiceCoreApplicationTests_selectUser - 2019.12.19 at 15h 33m 30s.xml">
-      <configuration name="TtsbServiceCoreApplicationTests.selectUser" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TtsbServiceCoreApplicationTests_selectJdGoods - 2019.12.19 at 16h 36m 20s.xml">
       <configuration name="TtsbServiceCoreApplicationTests.selectJdGoods" configurationId="JUnit" />
     </history-entry>
@@ -992,9 +867,24 @@
     <history-entry file="TtsbServiceCoreApplicationTests_selectByCondition - 2019.12.19 at 17h 33m 12s.xml">
       <configuration name="TtsbServiceCoreApplicationTests.selectByCondition" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TtsbServiceCoreApplicationTests_selectUserList - 2019.12.19 at 20h 18m 56s.xml">
+      <configuration name="TtsbServiceCoreApplicationTests.selectUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TtsbServiceCoreApplicationTests_selectUserList - 2019.12.19 at 20h 19m 54s.xml">
+      <configuration name="TtsbServiceCoreApplicationTests.selectUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TtsbServiceCoreApplicationTests_selectUserList - 2019.12.19 at 20h 21m 03s.xml">
+      <configuration name="TtsbServiceCoreApplicationTests.selectUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TtsbServiceCoreApplicationTests_selectUserList - 2019.12.19 at 20h 23m 13s.xml">
+      <configuration name="TtsbServiceCoreApplicationTests.selectUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TtsbServiceCoreApplicationTests_selectUserList - 2019.12.19 at 20h 26m 20s.xml">
+      <configuration name="TtsbServiceCoreApplicationTests.selectUserList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14537000" />
+    <option name="totallyTimeSpent" value="24620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1007,26 +897,26 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.38828632" />
+      <window_info anchor="bottom" id="Messages" weight="0.27982646" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17028199" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.13882864" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.03470716" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2570499" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.46746203" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19522777" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.28958786" />
       <window_info anchor="bottom" id="LuaCheck" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.015991472" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.030916844" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -1047,183 +937,32 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/test/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplicationTests.java</url>
-          <line>33</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>request.getPageSize()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getCurrentPage()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.0/mybatis-plus-core-3.1.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/test/java/com/jacken/ttsbadmin/TtsbAdminApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/TtsbAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-          <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-code-generator/src/main/resources/mybatis-generator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/entity/JdGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1680">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/entity/JdGoodsPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/entity/TbkFavorites.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-code-generator/src/main/java/com/jacken/ttsbcodegenerator/entity/TbkItemGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/TbkFavorites.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/TbkItemGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoodsPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/TbkFavoritesMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/TbkItemGoodsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,17 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/result/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -1271,44 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/UserviceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/UserServiceHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/response.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1316,34 +1006,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoods.java">
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="51" column="27" selection-start-line="7" selection-start-column="4" selection-end-line="51" selection-end-column="27" />
+        <state relative-caret-position="49">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/enums/ExceptionEnum.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/baseentity/PageModel.java">
+    <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/result/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        <state relative-caret-position="-90">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/baseentity/BasePageRequest.java">
+    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/JdGoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="390">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/JdGoodsServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/UserServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/JdGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1360,72 +1098,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/TbkFavoritesMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/TbkItemGoodsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="79" column="3" selection-start-line="79" selection-start-column="3" selection-end-line="83" selection-end-column="21" />
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/baseentity/BasePageRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/request/JdGoodsRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/fallback/JdGoodsServiceHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/controller/JdGoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/feign/JdGoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="270">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1434,53 +1157,235 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/controller/JdGoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/JdGoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="510">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="132" column="62" selection-start-line="132" selection-start-column="62" selection-end-line="132" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/baseentity/PageModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="137" column="50" selection-start-line="137" selection-start-column="50" selection-end-line="137" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-common/src/test/java/com/jacken/wqttsbcommon/WqTtsbCommonApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/src/main/java/com/jacken/ttsbadmin/TtsbAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+          <folding>
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/UserviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/test/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="347">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/mapper/JdGoodsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/config/MybatisPlusConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+        <state relative-caret-position="491">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/JdGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/utils/ExceptionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2100">
+          <caret line="249" column="28" selection-start-line="249" selection-start-column="28" selection-end-line="249" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/config/JdGoodsApiConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/TtsbServiceCoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-common/src/main/java/com/jacken/wqttsbcommon/utils/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#7552#7567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-model/src/main/java/com/jacken/wqttsbmodel/entity/JdGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/mapper/JdGoodsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="733">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttsb-service/ttsb-service-core/src/main/java/com/jacken/ttsbservicecore/service/impl/JdGoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="105" column="54" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

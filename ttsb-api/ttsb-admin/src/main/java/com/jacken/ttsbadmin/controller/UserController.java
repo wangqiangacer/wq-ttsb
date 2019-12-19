@@ -1,7 +1,7 @@
 package com.jacken.ttsbadmin.controller;
 
 import com.jacken.ttsbadmin.feign.UserService;
-import com.jacken.ttsbadmin.result.Result;
+import com.jacken.wqttsbmodel.result.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
