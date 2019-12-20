@@ -13,7 +13,7 @@ public enum ExceptionEnum {
     SUCCESS("10000", "成功"),
     SERVERERROR("10001", "服务器异常"),
     PARAMEMPTYERROR("10002", "参数有误"),
-    TOKENRERROR("10004", "请重新登录"),
+    TOKENRERROR("10004", "Token失效,请重新登录"),
     SIGNERROR("10005", "签名有误"),
     OPERATION_FILE("10006", "操作失败"),
     ACCOUNT_ERROR("10007", "账号异常"),

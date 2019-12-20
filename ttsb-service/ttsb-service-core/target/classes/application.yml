@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:mysql://49.232.173.109:3306/ttshb?useSSL=false&useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: root
-    password: root
+    password: wangqiang
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   cloud:
