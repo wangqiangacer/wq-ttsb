@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})  //忽略加载mysql数据库
 @EnableDiscoveryClient
 @EnableFeignClients
-@ComponentScan("com.jacken")
+@ComponentScan(value = {"com.jacken.ttsbadmin"})
 public class TtsbAdminApplication {
 
     public static void main(String[] args) {

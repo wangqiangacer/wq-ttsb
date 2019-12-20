@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Maven: com.jakcen:ttsb-common:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jakcen/ttsb-common/0.0.1-SNAPSHOT/ttsb-common-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/ttsb-api/ttsb-admin/ttsb-common-0.0.1-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ttsb-common/ttsb-common-0.0.1-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/jakcen/ttsb-common/0.0.1-SNAPSHOT/ttsb-common-0.0.1-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/ttsb-api/ttsb-admin/ttsb-common-0.0.1-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ttsb-common/ttsb-common-0.0.1-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/jakcen/ttsb-common/0.0.1-SNAPSHOT/ttsb-common-0.0.1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -136,13 +136,39 @@
             <version>1.7.25</version>
             <scope>test</scope>
         </dependency>
+
+        <!--京东联盟-->
+        <dependency>
+            <groupId>com.jd</groupId>
+            <artifactId>open-api-sdk</artifactId>
+            <version>20191220</version>
+        </dependency>
+
+        <!--淘宝联盟  使用本地打包方式 mvn install:install-file -Dfile=D:\.m2\repository\com\jd\open-api-sdk\2.0.1\open-api-sdk-2.0.1.jar -DgroupId=com.jd  -DartifactId=open-api-sdk -Dversion=20191220 -Dpackaging=jar-->
+        <dependency>
+            <groupId>com.taobao</groupId>
+            <artifactId>taobao-sdk</artifactId>
+            <version>20191220</version>
+        </dependency>
     </dependencies>
 
     <build>
+        <finalName>service-core-1.0.0-SNAPSHOT</finalName>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
             </plugin>
         </plugins>
     </build>

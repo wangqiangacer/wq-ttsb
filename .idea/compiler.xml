@@ -10,15 +10,14 @@
         <module name="ttsb-service-message" />
         <module name="ttsb-common" />
         <module name="ttsb-admin" />
-        <module name="ttsb-model" />
-        <module name="ttsb-web" />
-        <module name="ttsb-h5" />
         <module name="ttsb-service-core" />
         <module name="ttsb-code-generator" />
+        <module name="ttsb-web" />
+        <module name="ttsb-h5" />
+        <module name="ttsb-model" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ttsb" target="1.8" />
       <module name="ttsb-admin" target="1.8" />
       <module name="ttsb-api" target="1.8" />
       <module name="ttsb-app" target="1.8" />
@@ -32,6 +31,7 @@
       <module name="ttsb-service-schedule" target="1.8" />
       <module name="ttsb-service-threeparty" target="1.8" />
       <module name="ttsb-web" target="1.8" />
+      <module name="wq-ttsb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
