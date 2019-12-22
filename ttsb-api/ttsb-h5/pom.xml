@@ -25,7 +25,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.jakcen</groupId>
+            <groupId>com.jacken</groupId>
             <artifactId>ttsb-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
