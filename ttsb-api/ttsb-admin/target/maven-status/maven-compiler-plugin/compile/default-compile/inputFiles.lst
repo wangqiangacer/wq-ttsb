@@ -1,0 +1,12 @@
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\fallback\JdGoodsServiceHystrix.java
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\handler\ApiInterceptor.java
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\config\WebSecurityConfig.java
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\controller\TbkGoodsController.java
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\TtsbAdminApplication.java
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\controller\UserController.java
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\feign\UserService.java
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\feign\TbkGoodsService.java
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\fallback\UserServiceHystrix.java
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\controller\JdGoodsController.java
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\feign\JdGoodsService.java
+E:\wq-ttsb\wq-ttsb\ttsb-api\ttsb-admin\src\main\java\com\jacken\ttsbadmin\fallback\TbkGoodsServiceHystrix.java

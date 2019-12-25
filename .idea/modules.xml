@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ttsb.iml" filepath="$PROJECT_DIR$/ttsb.iml" />
       <module fileurl="file://$PROJECT_DIR$/ttsb-api/ttsb-admin/ttsb-admin.iml" filepath="$PROJECT_DIR$/ttsb-api/ttsb-admin/ttsb-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/ttsb-api/ttsb-api.iml" filepath="$PROJECT_DIR$/ttsb-api/ttsb-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/ttsb-code-generator/ttsb-code-generator.iml" filepath="$PROJECT_DIR$/ttsb-code-generator/ttsb-code-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/ttsb-common/ttsb-common.iml" filepath="$PROJECT_DIR$/ttsb-common/ttsb-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsb-gateway/ttsb-gateway.iml" filepath="$PROJECT_DIR$/ttsb-gateway/ttsb-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/ttsb-api/ttsb-h5/ttsb-h5.iml" filepath="$PROJECT_DIR$/ttsb-api/ttsb-h5/ttsb-h5.iml" />
       <module fileurl="file://$PROJECT_DIR$/ttsb-model/ttsb-model.iml" filepath="$PROJECT_DIR$/ttsb-model/ttsb-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/ttsb-service/ttsb-service.iml" filepath="$PROJECT_DIR$/ttsb-service/ttsb-service.iml" />

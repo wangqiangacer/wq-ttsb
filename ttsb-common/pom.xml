@@ -9,15 +9,14 @@
         <version>2.0.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.jakcen</groupId>
+    <groupId>com.jacken</groupId>
     <artifactId>ttsb-common</artifactId>
-    <version>${ttsb-version}}</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>ttsb-common</name>
     <description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
     <properties>
         <java.version>1.8</java.version>
-        <ttsb-version>1.0.0-SNAPSHOT</ttsb-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>

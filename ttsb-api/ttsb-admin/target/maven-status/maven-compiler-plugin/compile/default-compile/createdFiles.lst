@@ -1,0 +1,12 @@
+com\jacken\ttsbadmin\fallback\TbkGoodsServiceHystrix.class
+com\jacken\ttsbadmin\fallback\UserServiceHystrix.class
+com\jacken\ttsbadmin\controller\UserController.class
+com\jacken\ttsbadmin\feign\TbkGoodsService.class
+com\jacken\ttsbadmin\fallback\JdGoodsServiceHystrix.class
+com\jacken\ttsbadmin\config\WebSecurityConfig.class
+com\jacken\ttsbadmin\controller\TbkGoodsController.class
+com\jacken\ttsbadmin\feign\JdGoodsService.class
+com\jacken\ttsbadmin\feign\UserService.class
+com\jacken\ttsbadmin\handler\ApiInterceptor.class
+com\jacken\ttsbadmin\controller\JdGoodsController.class
+com\jacken\ttsbadmin\TtsbAdminApplication.class

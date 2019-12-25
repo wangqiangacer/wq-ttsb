@@ -1,0 +1,3 @@
+com\jacken\ttsbweb\TtsbWebApplication.class
+com\jacken\ttsbweb\fallback\UserFignHystrix.class
+com\jacken\ttsbweb\feign\UserFeign.class

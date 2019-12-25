@@ -1,0 +1,12 @@
+com\jacken\wqttsbmodel\baseentity\BasePageRequest.class
+com\jacken\wqttsbmodel\baseentity\PageModel.class
+com\jacken\wqttsbmodel\entity\JdGoodsPackage.class
+com\jacken\wqttsbmodel\enums\ExceptionEnum.class
+com\jacken\wqttsbmodel\result\Result.class
+com\jacken\wqttsbmodel\entity\JdGoods.class
+com\jacken\wqttsbmodel\request\TbkGoodsRequest.class
+com\jacken\wqttsbmodel\baseentity\BaseEntity.class
+com\jacken\wqttsbmodel\entity\TbkItemGoods.class
+com\jacken\wqttsbmodel\entity\User.class
+com\jacken\wqttsbmodel\entity\TbkFavorites.class
+com\jacken\wqttsbmodel\request\JdGoodsRequest.class

@@ -1,0 +1,15 @@
+com\jacken\ttsbservicecore\mapper\JdGoodsPackageMapper.class
+com\jacken\ttsbservicecore\service\impl\JdGoodsServiceImpl.class
+com\jacken\ttsbservicecore\service\TbkGoodsService.class
+com\jacken\ttsbservicecore\TtsbServiceCoreApplication.class
+com\jacken\ttsbservicecore\controller\TbkGoodsController.class
+com\jacken\ttsbservicecore\service\impl\UserviceImpl.class
+com\jacken\ttsbservicecore\service\UserService.class
+com\jacken\ttsbservicecore\controller\JdGoodsController.class
+com\jacken\ttsbservicecore\service\JdGoodsService.class
+com\jacken\ttsbservicecore\controller\UserController.class
+com\jacken\ttsbservicecore\mapper\JdGoodsMapper.class
+com\jacken\ttsbservicecore\mapper\TbkItemGoodsMapper.class
+com\jacken\ttsbservicecore\mapper\UserMapper.class
+com\jacken\ttsbservicecore\service\impl\TbkGoodsServiceImpl.class
+com\jacken\ttsbservicecore\mapper\TbkFavoritesMapper.class

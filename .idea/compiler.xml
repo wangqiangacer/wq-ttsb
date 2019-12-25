@@ -6,23 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ttsb-service-schedule" />
+        <module name="ttsb-code-generator" />
         <module name="ttsb-service-message" />
         <module name="ttsb-common" />
         <module name="ttsb-admin" />
         <module name="ttsb-service-core" />
-        <module name="ttsb-code-generator" />
         <module name="ttsb-web" />
         <module name="ttsb-h5" />
         <module name="ttsb-model" />
+        <module name="ttsb-service-schedule" />
+        <module name="ttsb-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ttsb" target="1.8" />
       <module name="ttsb-admin" target="1.8" />
       <module name="ttsb-api" target="1.8" />
       <module name="ttsb-app" target="1.8" />
       <module name="ttsb-code-generator" target="1.8" />
       <module name="ttsb-common" target="1.8" />
+      <module name="ttsb-gateway" target="1.8" />
       <module name="ttsb-h5" target="1.8" />
       <module name="ttsb-model" target="1.8" />
       <module name="ttsb-service" target="1.8" />
@@ -40,6 +43,7 @@
       <module name="ttsb-app" options="-parameters" />
       <module name="ttsb-code-generator" options="-parameters" />
       <module name="ttsb-common" options="-parameters" />
+      <module name="ttsb-gateway" options="-parameters" />
       <module name="ttsb-h5" options="-parameters" />
       <module name="ttsb-model" options="-parameters" />
       <module name="ttsb-service-core" options="-parameters" />
