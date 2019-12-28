@@ -57,7 +57,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.0.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.0.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.0.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.jakcen:ttsb-common:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="ttsb-common" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-openfeign:2.0.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter:2.0.1.RELEASE" level="project" />

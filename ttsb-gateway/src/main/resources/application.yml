@@ -1,6 +1,16 @@
 spring:
   application:
     name: ttsb-gateway
+    #开启热部署
+  devtools:
+    restart:
+      enabled: false
+      #redis 的相关配置
+  redis:
+    database: 1
+    host: 49.232.173.109
+    port: 6379
+    password:
   cloud:
     nacos:
       discovery:
@@ -9,7 +19,7 @@ spring:
     gateway:
       discovery:
         locator:
-          enabled: true
+          enabled: true   #开启服务名转发
           #配置路由规则
       routes:
 #        - id: TTSB-SERVICE-CORE
@@ -19,10 +29,13 @@ spring:
         - id: ttsb-admin
           uri: lb://ttsb-admin
           predicates:
-            - Method=GET,POST
-            - Path=/user/**
+            - Path=/user/**   # 针对的是对于调用的服务名称路径
           filters:
-            - StripPrefix=1  #跳过原来服务的context-path
+            - name: RequestRateLimiter
+              args:
+                key-resolver: '#{@uriKeyResolver}'
+                redis-rate-limiter.replenishRate: 1
+                redis-rate-limiter.burstCapacity: 2
 
 #配置日志级别
 logging:
@@ -35,3 +48,5 @@ management:
         include: "*"
 server:
   port: 9090
+user:
+  name: wangqiaang11112222

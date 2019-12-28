@@ -25,7 +25,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.jakcen</groupId>
+            <groupId>com.jacken</groupId>
             <artifactId>ttsb-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
@@ -141,14 +141,14 @@
         <dependency>
             <groupId>com.jd</groupId>
             <artifactId>open-api-sdk</artifactId>
-            <version>20191220</version>
+            <version>20191221</version>
         </dependency>
 
         <!--淘宝联盟  使用本地打包方式 mvn install:install-file -Dfile=D:\.m2\repository\com\jd\open-api-sdk\2.0.1\open-api-sdk-2.0.1.jar -DgroupId=com.jd  -DartifactId=open-api-sdk -Dversion=20191220 -Dpackaging=jar-->
         <dependency>
             <groupId>com.taobao</groupId>
             <artifactId>taobao-sdk</artifactId>
-            <version>20191220</version>
+            <version>20191221</version>
         </dependency>
     </dependencies>
 

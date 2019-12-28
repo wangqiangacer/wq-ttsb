@@ -3,12 +3,13 @@ package com.jacken.ttsbgateway;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.gateway.route.RouteLocator;
-import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
+import org.springframework.cloud.gateway.filter.ratelimit.KeyResolver;
 import org.springframework.context.annotation.Bean;
+import org.springframework.web.server.ServerWebExchange;
+import reactor.core.publisher.Mono;
 
 /**
- * 使用springgateway作为springcloud服务的网关
+ * 使用springgateway作为springcloud服务的网关  使用redis的令牌桶机制实现对服务的限流
  */
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -18,12 +19,11 @@ public class TtsbGatewayApplication {
         SpringApplication.run(TtsbGatewayApplication.class, args);
     }
 
-    @Bean
-    public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
-        return builder.routes()
-                .route(r -> r.path("/jianshu")
-                        .uri("http://www.jianshu.com/u/128b6effde53")
-                ).build();
+    //配置限流操作
+    @Bean(value = "uriKeyResolver")
+    public KeyResolver uriKeyResolver(){
+        return exchange -> Mono.just(exchange.getRequest().getRemoteAddress().getAddress().getHostAddress());
     }
+
 
 }

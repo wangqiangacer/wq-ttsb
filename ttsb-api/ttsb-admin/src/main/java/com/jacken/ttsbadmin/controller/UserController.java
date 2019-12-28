@@ -20,4 +20,9 @@ public class UserController {
     public Result getUser(){
         return    userService.selectUser();
     }
+
+    @PostMapping("/findByUserName")
+    public  Result findByUserName(){
+        return Result.success("jacken");
+    }
 }
